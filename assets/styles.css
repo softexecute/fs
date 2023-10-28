@@ -1,0 +1,85 @@
+/* Sidebar css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+:root {
+    --body-bg: #f3f3f4;
+    --black: #191919;
+    --black1: #080d08;
+    --warning: #f8bbd9 !important;
+    --color-1: #B06FCD;
+    --color-2: #8D88DF;
+    --color-3: #69C1F9;
+    --color-4: #4495FA; 
+    --color-5: #4E65EC;
+    --color-6: #153052 ;
+    --menu-width: 240px;
+}
+body::-webkit-scrollbar, .offcanvas-body::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Sidebar and menu items  ==================== */
+.menu-canvas.show,
+.add-product.show {
+    visibility: visible;
+}
+
+
+
+.top-nav,
+.bottom-nav {
+    z-index: 9;
+    box-shadow: -4px 2px 4px 1px #ddd6d6;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+.top-nav.nav-opened,
+.bottom-nav.nav-opened {
+    width: calc(100vw - var(--menu-width));
+    margin-left: var(--menu-width);
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .top-nav.nav-opened,
+    .bottom-nav.nav-opened,
+    .menu-opened.body-content {
+        width: 100vw;
+        margin-left: 0px;
+    }
+}
+
+
+
+
+/* /// Customize Bootstrap  */
+.input-group-text{
+    height: 100%;
+}
+
+
+
+
+
+
+/* custom class */
+.invalid-field{
+border: 1px dashed red !important;
+}
+.error-message{
+    width: 100%;
+    display: block;
+    color: red;
+    font-size: 13px;
+}
