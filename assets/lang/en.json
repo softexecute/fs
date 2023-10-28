@@ -1,0 +1,35 @@
+{
+    "error":{
+        "101": "Welcome To",
+        "102": "E -Commerce Site"
+    },
+    "httperror":{
+        "200": "OK! Successfully done",
+        "201": "",
+        "202": "",
+        "203": "",
+        "403": "You are not authorized to access this resource",
+        "404": "Not Found"
+    },
+
+    "label":{
+        "login":"",
+        "forgetpassword": ""
+    },
+"message":{
+    "title":{
+        "success": "Success !",
+        "error": "Error !",
+        "info" : "Information",
+        "warning": "Warning !"
+    },
+    "body": {
+        "success": "Successfully done",
+        "error": "Error occured while proccesing your request",
+        "info" : "Information",
+        "warning": "Warning !"
+    }
+
+}
+
+}
